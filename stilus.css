@@ -1,4 +1,60 @@
 .menu-link{
-    background-color:darkgreen;
+    background-color:rgb(9, 63, 9);
     color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.menu{
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+h1{
+    color:rgb(9, 63, 9);
+    background-color: rgb(142, 127, 163);
+    padding: 15px;
+}
+#kepes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: justify;
+}
+.kozep{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.cikk{
+    background-color: rgb(233, 190, 133);
+    border-radius: 10px;
+    padding: 20px 15px 20px 15px;
+}
+#elso{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+#masodik{
+    background-color: green;
+    color: aliceblue;
+}
+.kek{
+    background-color: aqua;
+}
+h3{
+    font-family: arial;
+    font-style: italic;
+    padding-top: 30px;
+    border-bottom: 5px dotted black;
+    width: 300px;
+}
+@media (max-width:500px){
+    grid-template-columns: 1fr;
 }
